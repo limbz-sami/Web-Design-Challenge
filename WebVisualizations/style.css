@@ -1,0 +1,55 @@
+
+body {
+  background-color:#ebebeb;
+}
+
+img {
+  margin: 15px;
+}
+
+.center {
+  align-content: center;
+}
+
+.border { 
+  border-color: teal;
+  border-style: solid;
+ }
+
+
+p {
+  font-family:'Times New Roman', Times, serif;
+  font-size: x-large;
+  line-height: 1.8;
+}
+
+nav {
+  margin-bottom:40px;
+}
+
+.row {
+  margin: 10px;
+}
+
+.jumbotron {
+  background-color: white;
+  margin: 10px;
+}
+
+.bold {
+  font-weight: bold;
+  color: rgb(10, 146, 132);
+  font-family:'Times New Roman', Times, serif;
+}
+
+@media (max-width: 900px) {
+  p {
+    font-size: large;
+  }
+
+  figure img {width: 130px; height:auto}
+
+  section img {width: 500px; height: auto}
+}
+
+
